@@ -1,0 +1,8 @@
+*.txt
+*.hi
+*.o
+wordstats
+*.lisp
+
+dist-newstyle
+.vscode
