@@ -8,7 +8,7 @@ type Stats = [(String, Int, Double)]
 
 -- A list of words that are semantically not important and can be filtered out from the document.
 commonWordsInItalian :: [String]
-commonWordsInItalian = ["a", "un", "il", "con", "e", "gli", "di", "che", "non", "la", "ma", "è", "ho", "una", "in", "da", "per", "mi", "sono"]
+commonWordsInItalian = ["a", "un", "il", "con", "e", "gli", "di", "che", "non", "la", "ma", "è", "ho", "una", "in", "da", "per", "mi", "sono", "le", "del"]
 
 wordList :: String -> [String]
 wordList = words . map toLower . filter (\c -> isAlphaNum c || isSpace c)

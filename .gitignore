@@ -6,3 +6,4 @@ wordstats
 
 dist-newstyle
 .vscode
+.DS_Store
